@@ -1,0 +1,72 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="第 1 页" id="_NJUI3LAB8s8z8PIJhlq">
+    <mxGraphModel dx="989" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oGUtBmPd7zcWffVo29Qn-1" value="4096 Bytes (4K)" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" parent="1" vertex="1">
+          <mxGeometry x="40" y="130" width="710" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="oGUtBmPd7zcWffVo29Qn-3" value="16bytes" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=-90;textDirection=vertical-lr;" parent="1" vertex="1">
+          <mxGeometry x="367.89" y="90" width="54.21" height="703.87" as="geometry" />
+        </mxCell>
+        <mxCell id="oGUtBmPd7zcWffVo29Qn-4" value="父页ID(2 bytes)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="130" width="104.24" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oGUtBmPd7zcWffVo29Qn-5" value="本页ID(2 bytes)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="244.24" y="130" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oGUtBmPd7zcWffVo29Qn-8" value="数据" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="170" width="710" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="oGUtBmPd7zcWffVo29Qn-10" value="数据库编号(1 byte)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="344.24" y="130" width="125.76" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oGUtBmPd7zcWffVo29Qn-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="oGUtBmPd7zcWffVo29Qn-12" target="oGUtBmPd7zcWffVo29Qn-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="150" />
+              <mxPoint x="20" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oGUtBmPd7zcWffVo29Qn-12" value="页属性(1 byte)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="130" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oGUtBmPd7zcWffVo29Qn-23" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="69.99" y="490" width="650" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oGUtBmPd7zcWffVo29Qn-13" value="IsExists" style="rounded=0;whiteSpace=wrap;html=1;" parent="oGUtBmPd7zcWffVo29Qn-23" vertex="1">
+          <mxGeometry y="20" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oGUtBmPd7zcWffVo29Qn-14" value="InMemory" style="rounded=0;whiteSpace=wrap;html=1;" parent="oGUtBmPd7zcWffVo29Qn-23" vertex="1">
+          <mxGeometry x="90" y="20" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oGUtBmPd7zcWffVo29Qn-16" value="Type(Data / Meta / String / Index)" style="rounded=0;whiteSpace=wrap;html=1;" parent="oGUtBmPd7zcWffVo29Qn-23" vertex="1">
+          <mxGeometry x="180" y="20" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oGUtBmPd7zcWffVo29Qn-17" value="1 bit" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="oGUtBmPd7zcWffVo29Qn-23" vertex="1">
+          <mxGeometry width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oGUtBmPd7zcWffVo29Qn-18" value="1 bit" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="oGUtBmPd7zcWffVo29Qn-23" vertex="1">
+          <mxGeometry x="90" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oGUtBmPd7zcWffVo29Qn-20" value="3 bits" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="oGUtBmPd7zcWffVo29Qn-23" vertex="1">
+          <mxGeometry x="180" width="350" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oGUtBmPd7zcWffVo29Qn-21" value="Unused" style="rounded=0;whiteSpace=wrap;html=1;" parent="oGUtBmPd7zcWffVo29Qn-23" vertex="1">
+          <mxGeometry x="530" y="20" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oGUtBmPd7zcWffVo29Qn-22" value="3 bits" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="oGUtBmPd7zcWffVo29Qn-23" vertex="1">
+          <mxGeometry x="530" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Uh0Gay5KEPtWYUmc_pqf-1" value="当前偏移量(4 bytes)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="130" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="75hJFQV9y78XWr6nDAG3-2" value="Unused(6 bytes)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="590" y="130" width="160" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
